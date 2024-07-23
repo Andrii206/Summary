@@ -88,5 +88,12 @@ export default {
 </script>
   
 <style scoped>
-/* Your styles here */
+.bg-color-blue{
+    background-color: #C2E6FE;
+}
+
+.bg-color-dark-blue{
+    background-color: #18405A;
+}
+
 </style>
