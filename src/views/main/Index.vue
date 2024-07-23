@@ -57,7 +57,7 @@
 <<<<<<< HEAD
             <img src="@/assets/images/hashtag_icon-icons-removebg-preview.png" class="mx-auto">
 =======
-            <img src="@assets/images/_hashtag_icon-icons-removebg-preview.png" class="mx-auto">
+            <img src="@assets/images/hashtag_icon-icons-removebg-preview.png" class="mx-auto">
 >>>>>>> 7086347859e50407ecfdca3bd5966892815560c9
             <span class="text-[#18405A] text-center text-[20px] my-3">{{ isEnglish ? 'Other' : 'Інше' }}<br></span>
             <span class="text-[#18405A] text-center text-[15px] leading-7 p-10">
