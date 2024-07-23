@@ -54,7 +54,7 @@
     </div>
     <div class="md:w-full md:mx-auto lg:w-1/3 max-w-[649px] w-full my-7">
         <div class="h-full py-5 mx-5 bg-color-blue dark:bg-white rounded-lg items-center text-center shadow-2xl flex flex-col justify-center">
-            <img src="@/assets/images/_hashtag_icon-icons-removebg-preview.png" class="mx-auto">
+            <img src="@/assets/images/hashtag_icon-icons-removebg-preview.png" class="mx-auto">
             <span class="text-[#18405A] text-center text-[20px] my-3">{{ isEnglish ? 'Other' : 'Інше' }}<br></span>
             <span class="text-[#18405A] text-center text-[15px] leading-7 p-10">
                 {{ isEnglish ? 'I can help with various things' : 'Я можу допомогти з різними речами' }}<br>
