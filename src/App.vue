@@ -118,4 +118,22 @@ const changeLanguage = (language) => {
 .dot {
   transition: transform 0.3s ease-in-out;
 }
+
+.bg-color-blue{
+    background-color: #C2E6FE;
+}
+
+.bg-color-dark-blue{
+    background-color: #18405A;
+}
+
+/*Height*/
+
+.h-70{
+    height: 70px;
+}
+
+.h-100{
+    height: 100px;
+}
 </style>
