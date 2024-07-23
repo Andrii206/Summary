@@ -1,7 +1,7 @@
 <template>
   <div :class="[isDarkMode ? 'dark-mode' : 'light-mode']">
     <header>
-      <div class="lg:px-[5%] bg-color-blue dark:bg-white md:flex">
+      <div class="lg:px-[5%] bg-[#18405A] dark:bg-white md:flex">
         <div class="lg:w-6/12 flex justify-center md:justify-start items-center py-3">
           <img class="h-70 my-auto" src="@/assets/images/logo/logo.png" alt="">
         </div>
@@ -9,7 +9,7 @@
           <label for="theme-toggle" class="inline-flex items-center cursor-pointer">
             <span class="relative">
               <input type="checkbox" id="theme-toggle" class="sr-only" v-model="isDarkMode">
-              <div class="block bg-color-dark-blue w-14 h-8 rounded-full"></div>
+              <div class="block bg-[#18405A]or-dark-blue w-14 h-8 rounded-full"></div>
               <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition-transform duration-300 ease-in-out"
                 :class="{ 'transform translate-x-full': isDarkMode }">
                 <svg v-if="isDarkMode" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -53,7 +53,7 @@
     <RouterView :isDarkMode="isDarkMode" :isEnglish="isEnglish" />
 
     <footer>
-      <div class="bg-color-blue dark:bg-white h-100 flex flex-row items-center text-center justify-center">
+      <div class="bg-[#18405A] dark:bg-white h-100 flex flex-row items-center text-center justify-center">
           <a href="mailto:andrejlah8@gmail.com">
             <img v-if="isDarkMode"  class="h-10 m-1.5" src="@/assets/images/icon/email.png" alt="">
             <img v-else class="h-10 m-1.5" src="@/assets/images/icon/email-dark.png" alt="">
