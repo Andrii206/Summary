@@ -28,7 +28,7 @@
             </section>
             <section class="md:flex md:flex-wrap dark:bg-color-dark-blue py-32">
     <div class="md:w-1/2 lg:w-1/3 max-w-[649px] w-full my-7">
-        <div class="h-full bg-color-blue py-5 mx-5 dark:bg-white rounded-lg text-center shadow-2xl flex flex-col justify-center">
+        <div class="h-full light:bg-color-blue py-5 mx-5 dark:bg-white rounded-lg text-center shadow-2xl flex flex-col justify-center">
             <img src="@/assets/images/pencil-icon-transparent-free-png-removebg-preview.png" class="mx-auto">
             <span class="text-[#18405A] text-center text-[20px] my-3">{{ isEnglish ? 'Web development' : 'Веб-розробка' }} <br></span>
             <span class="text-[#18405A] text-center text-[15px] leading-7 p-6">
@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="md:w-1/2 lg:w-1/3 max-w-[649px] w-full my-7">
-        <div class="h-full py-5 mx-5 bg-color-blue dark:bg-white rounded-lg items-center text-center shadow-2xl flex flex-col justify-center">
+        <div class="h-full py-5 mx-5 light:bg-color-blue dark:bg-white rounded-lg items-center text-center shadow-2xl flex flex-col justify-center">
             <img class="mx-auto w-full" src="@/assets/images/landscape-photo-3d-icon-illustration-png-removebg-preview.png">
             <span class="text-[#18405A] text-center text-[20px] my-3">UI/UX <br></span>
             <span class="text-[#18405A] text-center text-[15px] leading-7 p-10">
@@ -53,7 +53,7 @@
         </div>
     </div>
     <div class="md:w-full md:mx-auto lg:w-1/3 max-w-[649px] w-full my-7">
-        <div class="h-full py-5 mx-5 bg-color-blue dark:bg-white rounded-lg items-center text-center shadow-2xl flex flex-col justify-center">
+        <div class="h-full py-5 mx-5 light:bg-color-blue dark:bg-white rounded-lg items-center text-center shadow-2xl flex flex-col justify-center">
             <img src="../../assets/images/hashtag_icon-icons-removebg-preview.png" class="mx-auto">
             <span class="text-[#18405A] text-center text-[20px] my-3">{{ isEnglish ? 'Other' : 'Інше' }}<br></span>
             <span class="text-[#18405A] text-center text-[15px] leading-7 p-10">
